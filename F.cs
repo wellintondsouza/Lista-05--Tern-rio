@@ -10,6 +10,7 @@ class Program
         // Calculando o valor absoluto com operador ternário
         int valorAbsoluto = (numero < 0) ? -numero : numero;
 
-        Console.WriteLine($"O valor absoluto de {numero} é {valorAbsoluto}.");
+        Console.WriteLine("O valor absoluto de {0} é {1}.", numero, valorAbsoluto);
+        Console.ReadKey();
     }
 }
