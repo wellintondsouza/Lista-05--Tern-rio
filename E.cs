@@ -10,5 +10,6 @@ class Program
         string resultado = (numero > 10) ? "A condição é verdadeira." : "A condição é falsa.";
 
         Console.WriteLine(resultado);
+        Console.ReadKey();
     }
 }
