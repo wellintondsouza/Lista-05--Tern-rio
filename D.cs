@@ -11,5 +11,5 @@ class Program
         string resultado = (string.IsNullOrEmpty(texto)) ? "A string está vazia." : "A string não está vazia.";
 
         Console.WriteLine(resultado);
+        Console.ReadKey();
     }
-}
