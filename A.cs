@@ -10,6 +10,8 @@ class Program
         // Usando operador ternário
         string resultado = (numero % 2 == 0) ? "Par" : "Ímpar";
 
-        Console.WriteLine($"O número {numero} é {resultado}.");
+        Console.WriteLine("O número {0} é {1}.", numero, resultado);
+        
+        Console.ReadKey(true);
     }
 }
