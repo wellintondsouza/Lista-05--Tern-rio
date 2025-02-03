@@ -5,11 +5,19 @@ class Program
 {
     static void Main()
     {
-        List<int> numeros = new List<int>(); // Lista vazia
+        List<int> lista = new List<int>();
 
-        // Verificando se a lista está vazia com operador ternário
-        string resultado = (numeros.Count == 0) ? "A lista está vazia." : "A lista não está vazia.";
-
+        // Verifica se a lista está vazia
+        string resultado = lista.Count == 0 ? "A lista está vazia." : "A lista não está vazia.";
         Console.WriteLine(resultado);
+
+        // Adiciona um numero na lista
+        lista.Add(1);
+
+        // Verifica novamente se a lista está vazia ou não
+        resultado = lista.Count == 0 ? "A lista está vazia." : "A lista não está vazia.";
+        Console.WriteLine(resultado);
+   
+        Console.ReadKey();
     }
 }
